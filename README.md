@@ -115,16 +115,7 @@ python metatransform.py my_data.json --collection-img-only
 
 This command will convert the JSON data in my_data.json to Metadata with Collection Page Image Only format, retaining only the Collection Page Image URLs, names and IDs.
 
-### 6. Removing High-Resolution Image URL while retaining Attributes
-
-```bash
-python metatransform.py my_data.json --remove hriu --retain-attributes
-```
-
-This command will remove the "high_res_img_url" field from the JSON data while retaining the attributes.
-
-
-### 7. Field replacement
+### 6. Field replacement
 
 ```bash
 python metatransform.py my_data.json --find "high_res_img_url" --replace "collection_page_img_url"
@@ -132,7 +123,7 @@ python metatransform.py my_data.json --find "high_res_img_url" --replace "collec
 
 This command will replace all occurrences of 'high_res_img_url' with 'collection_page_img_url' in the JSON data of my_data.json.
 
-### 8. Converting plain text file to Inscription IDs Only format
+### 7. Converting plain text file to Inscription IDs Only format
 
 ```bash
 python metatransform.py my_data.txt --ids-only
