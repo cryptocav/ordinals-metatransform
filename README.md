@@ -137,6 +137,10 @@ This command will read the IDs from txtexample.txt and convert them into the Ins
 - This script is designed to be used in conjunction with the [Magic Eden](https://magiceden.io) platform for listing Bitcoin Ordinal inscriptions. It offers functionalities to prepare JSON data in the required formats specified by Magic Eden's listing guidelines.
 - Ensure that the JSON data provided follows the structure outlined in the Magic Eden [documentation](https://help.magiceden.io/en/articles/7957891-guide-to-listing-bitcoin-ordinal-inscriptions-on-magic-eden) for seamless integration.
 
+## Improvements and contributions
+
+The Bitcoin Ordinals JSON Editor is continually evolving. Expect enhancements such as performance optimizations, improved error handling, and user-requested features.
+
 ## License
 
 This project is licensed under the terms of the MIT license. See the [LICENSE](LICENSE) file for details.
