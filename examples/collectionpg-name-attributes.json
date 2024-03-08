@@ -1,0 +1,19 @@
+[
+    {
+        "id": "0f626bcfc3a33e8afd69a570f1dd65bf4201d3454cc07bb2d2f972db28b03a9bi0",
+        "meta": {
+            "name": "Example #1",
+            "collection_page_img_url": "https://collection_img.png",
+            "attributes": [
+                {
+                    "trait_type": "Clan",
+                    "value": "Aoi"
+                },
+                {
+                    "trait_type": "Class",
+                    "value": "Warrior"
+                }
+            ]
+        }
+    }
+]
